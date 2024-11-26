@@ -16,5 +16,11 @@ export class DashboardLayoutComponent {
   //   return this.authService.currentUser();
   // }
 
+  onLogout() {
+    console.log('Holii');
+    
+    this.authService.logout();
+    
+  }
 
 }
